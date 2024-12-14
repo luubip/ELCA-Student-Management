@@ -18,7 +18,7 @@ namespace StudentManagementAPI.Controllers
         }
 
         [HttpGet]
-        [Route("hello")]
+        [Route("hello-edited")]
         public IActionResult HelloWorld()
         {
             return NotFound("Hello World!!!");
